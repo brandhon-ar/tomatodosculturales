@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tomatodos · Culturales</title>
+  <!-- Bootstrap 5 + Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <!-- CSS propio -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR FIJO ===== -->
+  <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#inicio">
+        <!-- LOGO JPEG -->
+        <img src="logo.png" alt="Tomatodos Culturales" height="50" class="brand-logo" />
+        <span class="brand-text">Tomatodos</span>
+        <span class="cultural-badge">Culturales</span>
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto gap-2">
+          <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== INICIO ===== -->
+  <section id="inicio" class="hero-section d-flex align-items-center">
+    <div class="container">
+      <div class="row g-4 align-items-center">
+        <div class="col-lg-6">
+          <!-- LOGO EN HERO -->
+          <div class="hero-logo-container mb-4">
+            <img src="logo.png" alt="Tomatodos Culturales" class="hero-logo" />
+          </div>
+          <h1 class="display-4 fw-bold hero-title">
+            <span class="text-highlight">Tomatodos</span> Culturales
+          </h1>
+          <p class="lead fw-semibold" style="color: var(--tomate); font-size: 1.8rem;">
+            Diseña. Estampa. Luce tu cultura.
+          </p>
+          <p class="mb-4" style="font-size: 1.2rem;">
+            Le damos vida a lo nuestro con diseño. Creamos artes inspirados en la cultura peruana y los estampamos en tomatodos de alta calidad con máquina.
+          </p>
+          <div class="d-flex flex-wrap gap-3">
+            <a href="#productos" class="btn btn-primary btn-lg rounded-pill px-5 py-3 shadow">Explorar productos</a>
+            <a href="#nosotros" class="btn btn-outline-primary btn-lg rounded-pill px-5 py-3">Conócenos</a>
+          </div>
+        </div>
+        <div class="col-lg-6 text-center">
+          <div class="hero-image-wrapper">
+            <img src="logo.png" alt="Tomatodos Culturales" class="img-fluid rounded-4 shadow-lg hero-main-image" />
+            <div class="hero-image-overlay">
+              <span class="overlay-text">🇵🇪 Diseño Peruano</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRODUCTOS ===== -->
+  <section id="productos" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <div class="section-logo mb-3">
+          <img src="logo.png" alt="Tomatodos Culturales" height="60" />
+        </div>
+        <h2 class="display-5 fw-bold">Nuestros <span class="text-highlight">Tomatodos</span></h2>
+        <p class="text-muted">Cada pieza cuenta una historia de nuestra tierra.</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Producto 1 -->
+        <div class="col-md-4">
+          <div class="card product-card h-100 border-0 shadow-sm">
+            <img src="https://via.placeholder.com/400x300/9C3A2D/FFFFFF?text=🌽+Tomatodo+Andino" class="card-img-top" alt="Tomatodo Andino">
+            <div class="card-body">
+              <h5 class="card-title">Tomatodo Andino</h5>
+              <p class="card-text text-muted">Inspirado en los colores del altiplano. Algodón y tintes naturales.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold fs-5">S/ 45.00</span>
+                <button class="btn btn-outline-primary btn-sm rounded-pill px-4">Agregar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Producto 2 -->
+        <div class="col-md-4">
+          <div class="card product-card h-100 border-0 shadow-sm">
+            <img src="https://via.placeholder.com/400x300/2D6A4F/FFFFFF?text=🌿+Tomatodo+Selva" class="card-img-top" alt="Tomatodo Selva">
+            <div class="card-body">
+              <h5 class="card-title">Tomatodo Selva</h5>
+              <p class="card-text text-muted">Fibras de chambira y diseños amazónicos. Puro arte indígena.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold fs-5">S/ 55.00</span>
+                <button class="btn btn-outline-primary btn-sm rounded-pill px-4">Agregar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Producto 3 -->
+        <div class="col-md-4">
+          <div class="card product-card h-100 border-0 shadow-sm">
+            <img src="https://via.placeholder.com/400x300/D4A373/FFFFFF?text=🏺+Tomatodo+Cerámico" class="card-img-top" alt="Tomatodo Cerámico">
+            <div class="card-body">
+              <h5 class="card-title">Tomatodo Cerámico</h5>
+              <p class="card-text text-muted">Hecho a mano con arcilla de la sierra. Decoración ancestral.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold fs-5">S/ 65.00</span>
+                <button class="btn btn-outline-primary btn-sm rounded-pill px-4">Agregar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Producto 4 -->
+        <div class="col-md-4">
+          <div class="card product-card h-100 border-0 shadow-sm">
+            <img src="https://via.placeholder.com/400x300/7B2C3A/FFFFFF?text=🌾+Tomatodo+Cosecha" class="card-img-top" alt="Tomatodo Cosecha">
+            <div class="card-body">
+              <h5 class="card-title">Tomatodo Cosecha</h5>
+              <p class="card-text text-muted">Motivos de la papa y el maíz. Homenaje al agricultor peruano.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold fs-5">S/ 50.00</span>
+                <button class="btn btn-outline-primary btn-sm rounded-pill px-4">Agregar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Producto 5 -->
+        <div class="col-md-4">
+          <div class="card product-card h-100 border-0 shadow-sm">
+            <img src="https://via.placeholder.com/400x300/1E5F6B/FFFFFF?text=🐟+Tomatodo+Marino" class="card-img-top" alt="Tomatodo Marino">
+            <div class="card-body">
+              <h5 class="card-title">Tomatodo Marino</h5>
+              <p class="card-text text-muted">Colores del mar peruano. Inspirado en las olas y la pesca.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold fs-5">S/ 60.00</span>
+                <button class="btn btn-outline-primary btn-sm rounded-pill px-4">Agregar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Producto 6 -->
+        <div class="col-md-4">
+          <div class="card product-card h-100 border-0 shadow-sm">
+            <img src="https://via.placeholder.com/400x300/6A4C3C/FFFFFF?text=🪡+Tomatodo+Textil" class="card-img-top" alt="Tomatodo Textil">
+            <div class="card-body">
+              <h5 class="card-title">Tomatodo Textil</h5>
+              <p class="card-text text-muted">Tejido a telar con diseños de la cultura Moche.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold fs-5">S/ 70.00</span>
+                <button class="btn btn-outline-primary btn-sm rounded-pill px-4">Agregar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Producto 7-->
+        <div class="col-md-4">
+          <div class="card product-card h-100 border-0 shadow-sm">
+            <img src="https://via.placeholder.com/400x300/6A4C3C/FFFFFF?text=🪡+Tomatodo+Textil" class="card-img-top" alt="Tomatodo Textil">
+            <div class="card-body">
+              <h5 class="card-title">Tomatodo Textil</h5>
+              <p class="card-text text-muted">Tejido a telar con diseños de la cultura Moche.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold fs-5">S/ 70.00</span>
+                <button class="btn btn-outline-primary btn-sm rounded-pill px-4">Agregar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NOSOTROS ===== -->
+  <section id="nosotros" class="py-5" style="background: linear-gradient(135deg, #fff8f2 0%, #fce8dc 100%);">
+    <div class="container">
+      <div class="row g-5 align-items-center">
+        <div class="col-md-6">
+          <div class="position-relative">
+            <img src="logo.png" alt="Tomatodos Culturales" class="img-fluid rounded-4 shadow-lg" style="border: 4px solid var(--tomate);" />
+            <div class="position-absolute bottom-0 start-0 m-4 p-3 bg-white rounded-4 shadow-sm" style="background: rgba(255,255,255,0.95);">
+              <span class="fw-bold text-highlight">🇵🇪 Hecho en Perú</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex align-items-center gap-3 mb-3">
+            <img src="logo.png" alt="Tomatodos Culturales" height="50" class="rounded-3" />
+            <h2 class="display-5 fw-bold mb-0">Nosotros</h2>
+          </div>
+          <p class="lead" style="font-size: 1.3rem; color: var(--tomate); font-weight: 600;">
+            Somos estudiantes que queremos que los jóvenes se identifiquen con sus raíces, pero de una forma actual. Sin que se vea aburrido.
+          </p>
+          <div class="mt-4 p-4 bg-white rounded-4 shadow-sm">
+            <p style="font-size: 1.15rem; line-height: 1.8;">
+              <i class="bi bi-lightbulb-fill text-highlight me-2"></i>
+              <strong>Tú eliges el diseño, nosotros lo hacemos realidad.</strong> 
+              Es una forma fácil de llevar tu identidad a todos lados y apoyar el arte peruano.
+            </p>
+          </div>
+          <div class="row g-3 mt-3">
+            <div class="col-6">
+              <div class="d-flex align-items-center gap-2 p-2 bg-white rounded-3 shadow-sm">
+                <i class="bi bi-palette-fill text-highlight fs-4"></i>
+                <span>Diseños únicos</span>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="d-flex align-items-center gap-2 p-2 bg-white rounded-3 shadow-sm">
+                <i class="bi bi-hand-thumbs-up-fill text-highlight fs-4"></i>
+                <span>Calidad garantizada</span>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="d-flex align-items-center gap-2 p-2 bg-white rounded-3 shadow-sm">
+                <i class="bi bi-people-fill text-highlight fs-4"></i>
+                <span>Apoyo al arte local</span>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="d-flex align-items-center gap-2 p-2 bg-white rounded-3 shadow-sm">
+                <i class="bi bi-heart-fill text-highlight fs-4"></i>
+                <span>Identidad peruana</span>
+              </div>
+            </div>
+          </div>
+          <a href="#productos" class="btn btn-primary rounded-pill px-5 py-2 mt-4 shadow">
+            <i class="bi bi-cart-fill me-2"></i>Ver productos
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="py-4 text-center">
+    <div class="container">
+      <div class="d-flex justify-content-center align-items-center gap-3 mb-2">
+        <img src="logo.png" alt="Tomatodos Culturales" height="35" class="rounded-2" />
+        <p class="mb-0 fw-bold">Tomatodos Culturales</p>
+      </div>
+      <p class="mb-1">Diseña. Estampa. Luce tu cultura. 🇵🇪</p>
+      <p class="text-muted small mb-0">© 2026 · Lima - Perú</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- JS propio -->
+  <script src="script.js"></script>
+</body>
+</html>
