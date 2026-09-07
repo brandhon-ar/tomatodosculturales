@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="andinoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF8F2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FCE8DC;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="andinoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9C3A2D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D4A373;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Fondo -->
+  <rect width="400" height="300" rx="20" fill="url(#andinoBg)" stroke="#9C3A2D" stroke-width="3"/>
+
+  <!-- Círculo decorativo -->
+  <circle cx="200" cy="140" r="90" fill="url(#andinoGrad)" opacity="0.12"/>
+  <circle cx="200" cy="140" r="60" fill="none" stroke="#9C3A2D" stroke-width="2" opacity="0.4"/>
+
+  <!-- Sol andino -->
+  <circle cx="200" cy="120" r="30" fill="#F4A261" stroke="#9C3A2D" stroke-width="2"/>
+  <g stroke="#F4A261" stroke-width="3" stroke-linecap="round">
+    <line x1="200" y1="80" x2="200" y2="65"/>
+    <line x1="200" y1="160" x2="200" y2="175"/>
+    <line x1="160" y1="120" x2="145" y2="120"/>
+    <line x1="240" y1="120" x2="255" y2="120"/>
+    <line x1="172" y1="92" x2="162" y2="82"/>
+    <line x1="228" y1="92" x2="238" y2="82"/>
+    <line x1="172" y1="148" x2="162" y2="158"/>
+    <line x1="228" y1="148" x2="238" y2="158"/>
+  </g>
+  <circle cx="191" cy="115" r="3.5" fill="#9C3A2D"/>
+  <circle cx="209" cy="115" r="3.5" fill="#9C3A2D"/>
+  <path d="M191 132 Q200 141 209 132" fill="none" stroke="#9C3A2D" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Montañas -->
+  <polygon points="100,210 140,170 170,195 190,175 215,200 250,160 280,190 300,210" fill="#6A4C3C" opacity="0.5"/>
+  <polygon points="120,210 155,180 180,200 200,185 225,205 255,175 270,195 285,210" fill="#9C3A2D" opacity="0.35"/>
+
+  <!-- Detalles de montañas -->
+  <line x1="140" y1="170" x2="135" y2="165" stroke="#D4A373" stroke-width="1.5" opacity="0.6"/>
+  <line x1="250" y1="160" x2="245" y2="155" stroke="#D4A373" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Texto -->
+  <text x="200" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#9C3A2D">Tomatodo Andino</text>
+  <text x="200" y="282" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6A4C3C">Inspirado en los colores del altiplano</text>
+
+  <!-- Línea decorativa -->
+  <line x1="80" y1="242" x2="320" y2="242" stroke="#D4A373" stroke-width="1.5" opacity="0.6"/>
+</svg>
